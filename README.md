@@ -1,0 +1,48 @@
+# TODO - Autobahn-testsuite - (Server)
+- [ ] Text Messages
+- [ ] Binary Messages
+- [ ] Pings/Pongs
+- [ ] Reserved Bits
+- [ ] Non-control Opcodes
+- [ ] Control Opcodes
+- [ ] Fragmentation
+- [ ] Valid UTF-8 with zero payload fragments
+- [ ] Valid UTF-8 unfragmented, fragmented on code-points and within code-points
+- [ ] Invalid UTF-8 differently fragmented
+- [ ] Fail-fast on invalid UTF-8
+- [ ] Some valid UTF-8 sequences
+- [ ] All prefixes of a valid UTF-8 string that contains multi-byte code points
+- [ ] First possible sequence of a certain length
+- [ ] First possible sequence length 5/6 (invalid codepoints)
+- [ ] Last possible sequence of a certain length
+- [ ] Last possible sequence length 4/5/6 (invalid codepoints)
+- [ ] Other boundary conditions
+- [ ] Unexpected continuation bytes
+- [ ] Lonely start characters
+- [ ] Sequences with last continuation byte missing
+- [ ] Concatenation of incomplete sequences
+- [ ] Impossible bytes
+- [ ] Examples of an overlong ASCII character
+- [ ] Maximum overlong sequences
+- [ ] Overlong representation of the NUL character
+- [ ] Single UTF-16 surrogates
+- [ ] Paired UTF-16 surrogates
+- [ ] Non-character code points (valid UTF-8)
+- [ ] Unicode specials (i.e. replacement char)
+- [ ] Basic close behavior (fuzzer initiated)
+- [ ] Close frame structure: payload length (fuzzer initiated)
+- [ ] Close frame structure: payload value (fuzzer initiated)
+- [ ] Close frame structure: valid close codes (fuzzer initiated)
+- [ ] Close frame structure: invalid close codes (fuzzer initiated)
+- [ ] Informational close information (fuzzer initiated)
+- [ ] Text Message (increasing size)
+- [ ] Binary Message (increasing size)
+- [ ] Fragmented Text Message (fixed size, increasing fragment size)
+- [ ] Fragmented Binary Message (fixed size, increasing fragment size)
+- [ ] Text Message (fixed size, increasing chop size)
+- [ ] Binary Text Message (fixed size, increasing chop size)
+- [ ] Text Message Roundtrip Time (fixed number, increasing size)
+- [ ] Binary Message Roundtrip Time (fixed number, increasing size)
+- [ ] Auto-Fragmentation
+
+# TODO - Autobahn-testsuite - (Client)

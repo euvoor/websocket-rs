@@ -1,0 +1,12 @@
+{
+    "outdir": "./reports/servers",
+    "servers": [
+        {
+            "name": "websocket-rs",
+            "url": "wss://172.19.0.30:443/ws/terminal"
+        }
+    ],
+    "cases": ["*"],
+    "exclude-cases": [],
+    "exclude-agent-cases": {}
+}
